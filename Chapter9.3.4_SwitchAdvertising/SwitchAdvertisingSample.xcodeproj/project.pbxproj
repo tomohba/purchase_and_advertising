@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1EFFAAC182AB8F600A96A35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EFFAAB182AB8F600A96A35 /* Foundation.framework */; };
+		B1EFFAAE182AB8F600A96A35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EFFAAD182AB8F600A96A35 /* CoreGraphics.framework */; };
+		B1EFFAB0182AB8F600A96A35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EFFAAF182AB8F600A96A35 /* UIKit.framework */; };
+		B1EFFAB6182AB8F600A96A35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1EFFAB4182AB8F600A96A35 /* InfoPlist.strings */; };
+		B1EFFAB8182AB8F600A96A35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EFFAB7182AB8F600A96A35 /* main.m */; };
+		B1EFFABC182AB8F600A96A35 /* SBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EFFABB182AB8F600A96A35 /* SBAppDelegate.m */; };
+		B1EFFABF182AB8F600A96A35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1EFFABD182AB8F600A96A35 /* Main.storyboard */; };
+		B1EFFAC2182AB8F600A96A35 /* SBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EFFAC1182AB8F600A96A35 /* SBViewController.m */; };
+		B1EFFAC4182AB8F600A96A35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EFFAC3182AB8F600A96A35 /* Images.xcassets */; };
+		B1EFFACB182AB8F600A96A35 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EFFACA182AB8F600A96A35 /* XCTest.framework */; };
+		B1EFFACC182AB8F600A96A35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EFFAAB182AB8F600A96A35 /* Foundation.framework */; };
+		B1EFFACD182AB8F600A96A35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EFFAAF182AB8F600A96A35 /* UIKit.framework */; };
+		B1EFFAED182AB9A600A96A35 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EFFAEB182AB9A600A96A35 /* libGoogleAdMobAds.a */; };
+		B1EFFAEE182AB9A600A96A35 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = B1EFFAEC182AB9A600A96A35 /* README.txt */; };
+		B1EFFAF3182ABA0500A96A35 /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EFFAF0182ABA0500A96A35 /* libNendAd.a */; };
+		B1EFFAF4182ABA0500A96A35 /* NADView_readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = B1EFFAF2182ABA0500A96A35 /* NADView_readme.txt */; };
+		B1EFFAF6182ABA9C00A96A35 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EFFAF5182ABA9C00A96A35 /* SystemConfiguration.framework */; };
+		B1EFFAF8182ABAA500A96A35 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EFFAF7182ABAA500A96A35 /* AudioToolbox.framework */; };
+		B1EFFAFA182ABAAA00A96A35 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EFFAF9182ABAAA00A96A35 /* StoreKit.framework */; };
+		B1EFFAFC182ABAB100A96A35 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EFFAFB182ABAB100A96A35 /* MessageUI.framework */; };
+		B1EFFAFE182ABAB700A96A35 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EFFAFD182ABAB700A96A35 /* AdSupport.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1EFFACE182AB8F600A96A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1EFFAA0182AB8F600A96A35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1EFFAA7182AB8F600A96A35;
+			remoteInfo = SwitchAdvertisingSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1EFFAA8182AB8F600A96A35 /* SwitchAdvertisingSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchAdvertisingSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1EFFAAB182AB8F600A96A35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1EFFAAD182AB8F600A96A35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1EFFAAF182AB8F600A96A35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1EFFAB3182AB8F600A96A35 /* SwitchAdvertisingSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwitchAdvertisingSample-Info.plist"; sourceTree = "<group>"; };
+		B1EFFAB5182AB8F600A96A35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1EFFAB7182AB8F600A96A35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1EFFAB9182AB8F600A96A35 /* SwitchAdvertisingSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwitchAdvertisingSample-Prefix.pch"; sourceTree = "<group>"; };
+		B1EFFABA182AB8F600A96A35 /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
+		B1EFFABB182AB8F600A96A35 /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
+		B1EFFABE182AB8F600A96A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1EFFAC0182AB8F600A96A35 /* SBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBViewController.h; sourceTree = "<group>"; };
+		B1EFFAC1182AB8F600A96A35 /* SBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBViewController.m; sourceTree = "<group>"; };
+		B1EFFAC3182AB8F600A96A35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B1EFFAC9182AB8F600A96A35 /* SwitchAdvertisingSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchAdvertisingSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1EFFACA182AB8F600A96A35 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B1EFFAE2182AB9A600A96A35 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		B1EFFAE3182AB9A600A96A35 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		B1EFFAE4182AB9A600A96A35 /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		B1EFFAE5182AB9A600A96A35 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		B1EFFAE6182AB9A600A96A35 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		B1EFFAE7182AB9A600A96A35 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		B1EFFAE8182AB9A600A96A35 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		B1EFFAE9182AB9A600A96A35 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		B1EFFAEA182AB9A600A96A35 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		B1EFFAEB182AB9A600A96A35 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		B1EFFAEC182AB9A600A96A35 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		B1EFFAF0182ABA0500A96A35 /* libNendAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNendAd.a; sourceTree = "<group>"; };
+		B1EFFAF1182ABA0500A96A35 /* NADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADView.h; sourceTree = "<group>"; };
+		B1EFFAF2182ABA0500A96A35 /* NADView_readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NADView_readme.txt; sourceTree = "<group>"; };
+		B1EFFAF5182ABA9C00A96A35 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B1EFFAF7182ABAA500A96A35 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B1EFFAF9182ABAAA00A96A35 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B1EFFAFB182ABAB100A96A35 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B1EFFAFD182ABAB700A96A35 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1EFFAA5182AB8F600A96A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EFFAFE182ABAB700A96A35 /* AdSupport.framework in Frameworks */,
+				B1EFFAFC182ABAB100A96A35 /* MessageUI.framework in Frameworks */,
+				B1EFFAFA182ABAAA00A96A35 /* StoreKit.framework in Frameworks */,
+				B1EFFAF8182ABAA500A96A35 /* AudioToolbox.framework in Frameworks */,
+				B1EFFAF6182ABA9C00A96A35 /* SystemConfiguration.framework in Frameworks */,
+				B1EFFAAE182AB8F600A96A35 /* CoreGraphics.framework in Frameworks */,
+				B1EFFAED182AB9A600A96A35 /* libGoogleAdMobAds.a in Frameworks */,
+				B1EFFAF3182ABA0500A96A35 /* libNendAd.a in Frameworks */,
+				B1EFFAB0182AB8F600A96A35 /* UIKit.framework in Frameworks */,
+				B1EFFAAC182AB8F600A96A35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EFFAC6182AB8F600A96A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EFFACB182AB8F600A96A35 /* XCTest.framework in Frameworks */,
+				B1EFFACD182AB8F600A96A35 /* UIKit.framework in Frameworks */,
+				B1EFFACC182AB8F600A96A35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1EFFA9F182AB8F600A96A35 = {
+			isa = PBXGroup;
+			children = (
+				B1EFFAB1182AB8F600A96A35 /* SwitchAdvertisingSample */,
+				B1EFFAAA182AB8F600A96A35 /* Frameworks */,
+				B1EFFAA9182AB8F600A96A35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1EFFAA9182AB8F600A96A35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1EFFAA8182AB8F600A96A35 /* SwitchAdvertisingSample.app */,
+				B1EFFAC9182AB8F600A96A35 /* SwitchAdvertisingSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1EFFAAA182AB8F600A96A35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1EFFAFD182ABAB700A96A35 /* AdSupport.framework */,
+				B1EFFAFB182ABAB100A96A35 /* MessageUI.framework */,
+				B1EFFAF9182ABAAA00A96A35 /* StoreKit.framework */,
+				B1EFFAF7182ABAA500A96A35 /* AudioToolbox.framework */,
+				B1EFFAF5182ABA9C00A96A35 /* SystemConfiguration.framework */,
+				B1EFFAAB182AB8F600A96A35 /* Foundation.framework */,
+				B1EFFAAD182AB8F600A96A35 /* CoreGraphics.framework */,
+				B1EFFAAF182AB8F600A96A35 /* UIKit.framework */,
+				B1EFFACA182AB8F600A96A35 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1EFFAB1182AB8F600A96A35 /* SwitchAdvertisingSample */ = {
+			isa = PBXGroup;
+			children = (
+				B1EFFAE0182AB91500A96A35 /* Libraries */,
+				B1EFFABA182AB8F600A96A35 /* SBAppDelegate.h */,
+				B1EFFABB182AB8F600A96A35 /* SBAppDelegate.m */,
+				B1EFFABD182AB8F600A96A35 /* Main.storyboard */,
+				B1EFFAC0182AB8F600A96A35 /* SBViewController.h */,
+				B1EFFAC1182AB8F600A96A35 /* SBViewController.m */,
+				B1EFFAC3182AB8F600A96A35 /* Images.xcassets */,
+				B1EFFAB2182AB8F600A96A35 /* Supporting Files */,
+			);
+			path = SwitchAdvertisingSample;
+			sourceTree = "<group>";
+		};
+		B1EFFAB2182AB8F600A96A35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1EFFAB3182AB8F600A96A35 /* SwitchAdvertisingSample-Info.plist */,
+				B1EFFAB4182AB8F600A96A35 /* InfoPlist.strings */,
+				B1EFFAB7182AB8F600A96A35 /* main.m */,
+				B1EFFAB9182AB8F600A96A35 /* SwitchAdvertisingSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1EFFAE0182AB91500A96A35 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B1EFFAEF182ABA0500A96A35 /* NendAd */,
+				B1EFFAE1182AB9A600A96A35 /* GoogleAdMobAdsSdkiOS */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		B1EFFAE1182AB9A600A96A35 /* GoogleAdMobAdsSdkiOS */ = {
+			isa = PBXGroup;
+			children = (
+				B1EFFAE2182AB9A600A96A35 /* GADAdMobExtras.h */,
+				B1EFFAE3182AB9A600A96A35 /* GADAdNetworkExtras.h */,
+				B1EFFAE4182AB9A600A96A35 /* GADAdSize.h */,
+				B1EFFAE5182AB9A600A96A35 /* GADBannerView.h */,
+				B1EFFAE6182AB9A600A96A35 /* GADBannerViewDelegate.h */,
+				B1EFFAE7182AB9A600A96A35 /* GADInterstitial.h */,
+				B1EFFAE8182AB9A600A96A35 /* GADInterstitialDelegate.h */,
+				B1EFFAE9182AB9A600A96A35 /* GADRequest.h */,
+				B1EFFAEA182AB9A600A96A35 /* GADRequestError.h */,
+				B1EFFAEB182AB9A600A96A35 /* libGoogleAdMobAds.a */,
+				B1EFFAEC182AB9A600A96A35 /* README.txt */,
+			);
+			path = GoogleAdMobAdsSdkiOS;
+			sourceTree = "<group>";
+		};
+		B1EFFAEF182ABA0500A96A35 /* NendAd */ = {
+			isa = PBXGroup;
+			children = (
+				B1EFFAF0182ABA0500A96A35 /* libNendAd.a */,
+				B1EFFAF1182ABA0500A96A35 /* NADView.h */,
+				B1EFFAF2182ABA0500A96A35 /* NADView_readme.txt */,
+			);
+			path = NendAd;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1EFFAA7182AB8F600A96A35 /* SwitchAdvertisingSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1EFFADA182AB8F700A96A35 /* Build configuration list for PBXNativeTarget "SwitchAdvertisingSample" */;
+			buildPhases = (
+				B1EFFAA4182AB8F600A96A35 /* Sources */,
+				B1EFFAA5182AB8F600A96A35 /* Frameworks */,
+				B1EFFAA6182AB8F600A96A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchAdvertisingSample;
+			productName = SwitchAdvertisingSample;
+			productReference = B1EFFAA8182AB8F600A96A35 /* SwitchAdvertisingSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1EFFAC8182AB8F600A96A35 /* SwitchAdvertisingSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1EFFADD182AB8F700A96A35 /* Build configuration list for PBXNativeTarget "SwitchAdvertisingSampleTests" */;
+			buildPhases = (
+				B1EFFAC5182AB8F600A96A35 /* Sources */,
+				B1EFFAC6182AB8F600A96A35 /* Frameworks */,
+				B1EFFAC7182AB8F600A96A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1EFFACF182AB8F600A96A35 /* PBXTargetDependency */,
+			);
+			name = SwitchAdvertisingSampleTests;
+			productName = SwitchAdvertisingSampleTests;
+			productReference = B1EFFAC9182AB8F600A96A35 /* SwitchAdvertisingSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1EFFAA0182AB8F600A96A35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Softbuild;
+				TargetAttributes = {
+					B1EFFAC8182AB8F600A96A35 = {
+						TestTargetID = B1EFFAA7182AB8F600A96A35;
+					};
+				};
+			};
+			buildConfigurationList = B1EFFAA3182AB8F600A96A35 /* Build configuration list for PBXProject "SwitchAdvertisingSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1EFFA9F182AB8F600A96A35;
+			productRefGroup = B1EFFAA9182AB8F600A96A35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1EFFAA7182AB8F600A96A35 /* SwitchAdvertisingSample */,
+				B1EFFAC8182AB8F600A96A35 /* SwitchAdvertisingSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1EFFAA6182AB8F600A96A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EFFAF4182ABA0500A96A35 /* NADView_readme.txt in Resources */,
+				B1EFFAC4182AB8F600A96A35 /* Images.xcassets in Resources */,
+				B1EFFAB6182AB8F600A96A35 /* InfoPlist.strings in Resources */,
+				B1EFFAEE182AB9A600A96A35 /* README.txt in Resources */,
+				B1EFFABF182AB8F600A96A35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EFFAC7182AB8F600A96A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1EFFAA4182AB8F600A96A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EFFAB8182AB8F600A96A35 /* main.m in Sources */,
+				B1EFFAC2182AB8F600A96A35 /* SBViewController.m in Sources */,
+				B1EFFABC182AB8F600A96A35 /* SBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EFFAC5182AB8F600A96A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1EFFACF182AB8F600A96A35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1EFFAA7182AB8F600A96A35 /* SwitchAdvertisingSample */;
+			targetProxy = B1EFFACE182AB8F600A96A35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1EFFAB4182AB8F600A96A35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1EFFAB5182AB8F600A96A35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B1EFFABD182AB8F600A96A35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1EFFABE182AB8F600A96A35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1EFFAD8182AB8F700A96A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1EFFAD9182AB8F700A96A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1EFFADB182AB8F700A96A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchAdvertisingSample/SwitchAdvertisingSample-Prefix.pch";
+				INFOPLIST_FILE = "SwitchAdvertisingSample/SwitchAdvertisingSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/SwitchAdvertisingSample/GoogleAdMobAdsSdkiOS",
+					"$(SRCROOT)/SwitchAdvertisingSample/NendAd",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B1EFFADC182AB8F700A96A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchAdvertisingSample/SwitchAdvertisingSample-Prefix.pch";
+				INFOPLIST_FILE = "SwitchAdvertisingSample/SwitchAdvertisingSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/SwitchAdvertisingSample/GoogleAdMobAdsSdkiOS",
+					"$(SRCROOT)/SwitchAdvertisingSample/NendAd",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B1EFFADE182AB8F700A96A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwitchAdvertisingSample.app/SwitchAdvertisingSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchAdvertisingSample/SwitchAdvertisingSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SwitchAdvertisingSampleTests/SwitchAdvertisingSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B1EFFADF182AB8F700A96A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwitchAdvertisingSample.app/SwitchAdvertisingSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchAdvertisingSample/SwitchAdvertisingSample-Prefix.pch";
+				INFOPLIST_FILE = "SwitchAdvertisingSampleTests/SwitchAdvertisingSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1EFFAA3182AB8F600A96A35 /* Build configuration list for PBXProject "SwitchAdvertisingSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1EFFAD8182AB8F700A96A35 /* Debug */,
+				B1EFFAD9182AB8F700A96A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1EFFADA182AB8F700A96A35 /* Build configuration list for PBXNativeTarget "SwitchAdvertisingSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1EFFADB182AB8F700A96A35 /* Debug */,
+				B1EFFADC182AB8F700A96A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1EFFADD182AB8F700A96A35 /* Build configuration list for PBXNativeTarget "SwitchAdvertisingSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1EFFADE182AB8F700A96A35 /* Debug */,
+				B1EFFADF182AB8F700A96A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1EFFAA0182AB8F600A96A35 /* Project object */;
+}

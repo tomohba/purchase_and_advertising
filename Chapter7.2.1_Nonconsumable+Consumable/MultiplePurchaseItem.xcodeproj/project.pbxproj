@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EACD020118223B6F004E57A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACD020018223B6F004E57A5 /* Foundation.framework */; };
+		EACD020318223B6F004E57A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACD020218223B6F004E57A5 /* CoreGraphics.framework */; };
+		EACD020518223B70004E57A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACD020418223B70004E57A5 /* UIKit.framework */; };
+		EACD020B18223B70004E57A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EACD020918223B70004E57A5 /* InfoPlist.strings */; };
+		EACD020D18223B70004E57A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EACD020C18223B70004E57A5 /* main.m */; };
+		EACD021118223B70004E57A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EACD021018223B70004E57A5 /* AppDelegate.m */; };
+		EACD021418223B70004E57A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACD021218223B70004E57A5 /* Main.storyboard */; };
+		EACD021718223B70004E57A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACD021618223B70004E57A5 /* ViewController.m */; };
+		EACD021918223B70004E57A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACD021818223B70004E57A5 /* Images.xcassets */; };
+		EACD022018223B70004E57A5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACD021F18223B70004E57A5 /* XCTest.framework */; };
+		EACD022118223B70004E57A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACD020018223B6F004E57A5 /* Foundation.framework */; };
+		EACD022218223B70004E57A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACD020418223B70004E57A5 /* UIKit.framework */; };
+		EACD022A18223B70004E57A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EACD022818223B70004E57A5 /* InfoPlist.strings */; };
+		EACD022C18223B70004E57A5 /* MultiplePurchaseItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EACD022B18223B70004E57A5 /* MultiplePurchaseItemTests.m */; };
+		EACD023818224888004E57A5 /* SettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EACD023718224888004E57A5 /* SettingsManager.m */; };
+		EAD7F5E41822730D002D5132 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD7F5E31822730D002D5132 /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EACD022318223B70004E57A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EACD01F518223B6F004E57A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EACD01FC18223B6F004E57A5;
+			remoteInfo = MultiplePurchaseItem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EACD01FD18223B6F004E57A5 /* MultiplePurchaseItem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplePurchaseItem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACD020018223B6F004E57A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EACD020218223B6F004E57A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EACD020418223B70004E57A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EACD020818223B70004E57A5 /* MultiplePurchaseItem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiplePurchaseItem-Info.plist"; sourceTree = "<group>"; };
+		EACD020A18223B70004E57A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EACD020C18223B70004E57A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EACD020E18223B70004E57A5 /* MultiplePurchaseItem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiplePurchaseItem-Prefix.pch"; sourceTree = "<group>"; };
+		EACD020F18223B70004E57A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EACD021018223B70004E57A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EACD021318223B70004E57A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EACD021518223B70004E57A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EACD021618223B70004E57A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EACD021818223B70004E57A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EACD021E18223B70004E57A5 /* MultiplePurchaseItemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiplePurchaseItemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACD021F18223B70004E57A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EACD022718223B70004E57A5 /* MultiplePurchaseItemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiplePurchaseItemTests-Info.plist"; sourceTree = "<group>"; };
+		EACD022918223B70004E57A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EACD022B18223B70004E57A5 /* MultiplePurchaseItemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplePurchaseItemTests.m; sourceTree = "<group>"; };
+		EACD023518224827004E57A5 /* ProductIds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductIds.h; sourceTree = "<group>"; };
+		EACD023618224888004E57A5 /* SettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsManager.h; sourceTree = "<group>"; };
+		EACD023718224888004E57A5 /* SettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsManager.m; sourceTree = "<group>"; };
+		EAD7F5E31822730D002D5132 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EACD01FA18223B6F004E57A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD7F5E41822730D002D5132 /* StoreKit.framework in Frameworks */,
+				EACD020318223B6F004E57A5 /* CoreGraphics.framework in Frameworks */,
+				EACD020518223B70004E57A5 /* UIKit.framework in Frameworks */,
+				EACD020118223B6F004E57A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACD021B18223B70004E57A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACD022018223B70004E57A5 /* XCTest.framework in Frameworks */,
+				EACD022218223B70004E57A5 /* UIKit.framework in Frameworks */,
+				EACD022118223B70004E57A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EACD01F418223B6F004E57A5 = {
+			isa = PBXGroup;
+			children = (
+				EACD020618223B70004E57A5 /* MultiplePurchaseItem */,
+				EACD022518223B70004E57A5 /* MultiplePurchaseItemTests */,
+				EACD01FF18223B6F004E57A5 /* Frameworks */,
+				EACD01FE18223B6F004E57A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EACD01FE18223B6F004E57A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EACD01FD18223B6F004E57A5 /* MultiplePurchaseItem.app */,
+				EACD021E18223B70004E57A5 /* MultiplePurchaseItemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EACD01FF18223B6F004E57A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAD7F5E31822730D002D5132 /* StoreKit.framework */,
+				EACD020018223B6F004E57A5 /* Foundation.framework */,
+				EACD020218223B6F004E57A5 /* CoreGraphics.framework */,
+				EACD020418223B70004E57A5 /* UIKit.framework */,
+				EACD021F18223B70004E57A5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EACD020618223B70004E57A5 /* MultiplePurchaseItem */ = {
+			isa = PBXGroup;
+			children = (
+				EACD020F18223B70004E57A5 /* AppDelegate.h */,
+				EACD021018223B70004E57A5 /* AppDelegate.m */,
+				EACD021218223B70004E57A5 /* Main.storyboard */,
+				EACD021518223B70004E57A5 /* ViewController.h */,
+				EACD021618223B70004E57A5 /* ViewController.m */,
+				EACD021818223B70004E57A5 /* Images.xcassets */,
+				EACD020718223B70004E57A5 /* Supporting Files */,
+				EACD023518224827004E57A5 /* ProductIds.h */,
+				EACD023618224888004E57A5 /* SettingsManager.h */,
+				EACD023718224888004E57A5 /* SettingsManager.m */,
+			);
+			path = MultiplePurchaseItem;
+			sourceTree = "<group>";
+		};
+		EACD020718223B70004E57A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EACD020818223B70004E57A5 /* MultiplePurchaseItem-Info.plist */,
+				EACD020918223B70004E57A5 /* InfoPlist.strings */,
+				EACD020C18223B70004E57A5 /* main.m */,
+				EACD020E18223B70004E57A5 /* MultiplePurchaseItem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EACD022518223B70004E57A5 /* MultiplePurchaseItemTests */ = {
+			isa = PBXGroup;
+			children = (
+				EACD022B18223B70004E57A5 /* MultiplePurchaseItemTests.m */,
+				EACD022618223B70004E57A5 /* Supporting Files */,
+			);
+			path = MultiplePurchaseItemTests;
+			sourceTree = "<group>";
+		};
+		EACD022618223B70004E57A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EACD022718223B70004E57A5 /* MultiplePurchaseItemTests-Info.plist */,
+				EACD022818223B70004E57A5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EACD01FC18223B6F004E57A5 /* MultiplePurchaseItem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACD022F18223B70004E57A5 /* Build configuration list for PBXNativeTarget "MultiplePurchaseItem" */;
+			buildPhases = (
+				EACD01F918223B6F004E57A5 /* Sources */,
+				EACD01FA18223B6F004E57A5 /* Frameworks */,
+				EACD01FB18223B6F004E57A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiplePurchaseItem;
+			productName = MultiplePurchaseItem;
+			productReference = EACD01FD18223B6F004E57A5 /* MultiplePurchaseItem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EACD021D18223B70004E57A5 /* MultiplePurchaseItemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACD023218223B70004E57A5 /* Build configuration list for PBXNativeTarget "MultiplePurchaseItemTests" */;
+			buildPhases = (
+				EACD021A18223B70004E57A5 /* Sources */,
+				EACD021B18223B70004E57A5 /* Frameworks */,
+				EACD021C18223B70004E57A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EACD022418223B70004E57A5 /* PBXTargetDependency */,
+			);
+			name = MultiplePurchaseItemTests;
+			productName = MultiplePurchaseItemTests;
+			productReference = EACD021E18223B70004E57A5 /* MultiplePurchaseItemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EACD01F518223B6F004E57A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Purchase and Advertising";
+				TargetAttributes = {
+					EACD021D18223B70004E57A5 = {
+						TestTargetID = EACD01FC18223B6F004E57A5;
+					};
+				};
+			};
+			buildConfigurationList = EACD01F818223B6F004E57A5 /* Build configuration list for PBXProject "MultiplePurchaseItem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EACD01F418223B6F004E57A5;
+			productRefGroup = EACD01FE18223B6F004E57A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EACD01FC18223B6F004E57A5 /* MultiplePurchaseItem */,
+				EACD021D18223B70004E57A5 /* MultiplePurchaseItemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EACD01FB18223B6F004E57A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACD021918223B70004E57A5 /* Images.xcassets in Resources */,
+				EACD020B18223B70004E57A5 /* InfoPlist.strings in Resources */,
+				EACD021418223B70004E57A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACD021C18223B70004E57A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACD022A18223B70004E57A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EACD01F918223B6F004E57A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACD023818224888004E57A5 /* SettingsManager.m in Sources */,
+				EACD021718223B70004E57A5 /* ViewController.m in Sources */,
+				EACD021118223B70004E57A5 /* AppDelegate.m in Sources */,
+				EACD020D18223B70004E57A5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACD021A18223B70004E57A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACD022C18223B70004E57A5 /* MultiplePurchaseItemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EACD022418223B70004E57A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EACD01FC18223B6F004E57A5 /* MultiplePurchaseItem */;
+			targetProxy = EACD022318223B70004E57A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EACD020918223B70004E57A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACD020A18223B70004E57A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EACD021218223B70004E57A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACD021318223B70004E57A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EACD022818223B70004E57A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACD022918223B70004E57A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EACD022D18223B70004E57A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EACD022E18223B70004E57A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EACD023018223B70004E57A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiplePurchaseItem/MultiplePurchaseItem-Prefix.pch";
+				INFOPLIST_FILE = "MultiplePurchaseItem/MultiplePurchaseItem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EACD023118223B70004E57A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiplePurchaseItem/MultiplePurchaseItem-Prefix.pch";
+				INFOPLIST_FILE = "MultiplePurchaseItem/MultiplePurchaseItem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EACD023318223B70004E57A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultiplePurchaseItem.app/MultiplePurchaseItem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiplePurchaseItem/MultiplePurchaseItem-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MultiplePurchaseItemTests/MultiplePurchaseItemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EACD023418223B70004E57A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultiplePurchaseItem.app/MultiplePurchaseItem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiplePurchaseItem/MultiplePurchaseItem-Prefix.pch";
+				INFOPLIST_FILE = "MultiplePurchaseItemTests/MultiplePurchaseItemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EACD01F818223B6F004E57A5 /* Build configuration list for PBXProject "MultiplePurchaseItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACD022D18223B70004E57A5 /* Debug */,
+				EACD022E18223B70004E57A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACD022F18223B70004E57A5 /* Build configuration list for PBXNativeTarget "MultiplePurchaseItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACD023018223B70004E57A5 /* Debug */,
+				EACD023118223B70004E57A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACD023218223B70004E57A5 /* Build configuration list for PBXNativeTarget "MultiplePurchaseItemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACD023318223B70004E57A5 /* Debug */,
+				EACD023418223B70004E57A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EACD01F518223B6F004E57A5 /* Project object */;
+}
